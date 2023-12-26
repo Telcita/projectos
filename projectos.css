@@ -1,0 +1,132 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.main{
+	width: 100%;
+	background-image: url(../imagens/fundo.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 600px;
+}
+
+
+.navbar{
+	width: 100%;
+	height: 75px;
+    margin: auto;
+    background: darkblue;
+}
+
+.icon{
+
+ width: 200px;
+ height: 70px;
+ float: left;
+}
+
+.logo{
+	color: snow;
+	font-size: 35px;
+	font-family: Arial;
+	padding-left: 20px;
+	float: left;
+	padding-top: 10px;
+}
+
+.menu{
+	width: 800px;
+	float: right;
+	height: 70px;
+}
+
+.menu ul{
+	display: flex;
+	float: left;
+	justify-content: right;
+}
+
+.menu ul li{
+	list-style: none;
+	margin-left: 62px;
+	margin-top: 27px;
+	font-size: 12px;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	color: red;
+	font-family: Arial;
+	font-weight: bold;
+	transition: 0.4s ease-in-out;
+
+}
+
+.menu ul li a:hover{
+	color: black;
+
+}
+
+.menu ul li:hover .dropDown{
+	color: black;
+	display: block;
+	position: absolute;
+	margin-top: 15px;
+	margin-left: -25px;
+	background: darkblue;
+	float: left;
+}
+
+.menu ul li:hover .dropDown ul{
+	display: block;
+	margin: 10px ;
+}
+
+.menu ul li:hover .dropDown ul li{
+	width: 100px;
+	padding: 10px;
+	border-bottom: 1px dotted #fff;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+}
+
+.menu ul li:hover .dropDown ul li:last-child{
+	border-bottom: none;
+}
+
+.dropDown{
+	display:none;
+
+}
+
+.content{
+	width: 1200px;
+	height: auto;
+	margin: auto;
+	color: #fff;
+	position: relative;
+	padding-top: 100px;
+	padding-left: 70px;
+	background-color: transparent;
+
+}
+
+
+.content .par{
+	padding-left: 20px;
+	padding-bottom: 25px;
+	font-family: Arial;
+	letter-spacing: 1.2px;
+	line-height: 30px;
+
+}
+
+.content h1{
+	font-family: 'Times New Roman';
+	font-size: 50px;
+	padding-left: 20px;
+	letter-spacing: 2px;
+}
+
